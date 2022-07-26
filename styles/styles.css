@@ -1,0 +1,83 @@
+.main {
+  height: 500px;
+  width: 500px;
+  background-color: #f69430;
+}
+.form-base {
+  height: 370px;
+  width: 370px;
+  background: #e1e1e1;
+}
+.button-close {
+  height: 15px;
+  width: 15px;
+}
+
+.title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 31px;
+  color: #343844;
+}
+
+.question {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12px;
+
+  color: #ffffff;
+}
+.icon {
+  width: 45px;
+  height: 45px;
+}
+.input-user {
+  border: none;
+  height: 45px;
+}
+.input-password {
+  border: none;
+  height: 45px;
+}
+.view-password {
+  height: 45px;
+}
+
+.button {
+  border: none;
+  width: 137px;
+  height: 45px;
+  background: #e65848;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20.5898px;
+  line-height: 25px;
+  color: #ffffff;
+}
+
+.checkbox {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12px;
+
+  color: #343844;
+}
+.button-small {
+  border: none;
+  width: 100px;
+  height: 12px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12px;
+
+  color: #343844;
+}
