@@ -6,10 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles/styles.css" />
@@ -18,16 +16,17 @@
   <body>
     <main class="main">
       <form class="form-base" action="#" method="get">
-        <input class="button-close" type="image" src="img/batton-close.jpg" />
-        <div class="title">
-          <p>Member Sign In</p>
+        <div class="button-close-line">
+          <input class="button-close" type="image" src="img/batton-close.jpg" />
         </div>
-        <div class="question">
-          <p>Not a member yet?</p>
+
+        <div class="title">Member Sign In</div>
+        <div class="question-line">
+          <span class="question-text question">Not a member yet?</span>
           <a class="question" href="#">Sign up now</a>
         </div>
 
-        <div>
+        <div class="user-name-line">
           <img class="icon" src="img/icon-user.jpg" alt="icon-password" />
           <input
             class="input-user"
@@ -36,23 +35,38 @@
           />
         </div>
 
-        <div>
+        <div class="user-name-line">
           <img class="icon" src="img/icon-password.jpg" alt="icon-password" />
-          <input class="input-password" type="password" />
+          <input
+            class="input-password"
+            type="password"
+            placeholder="Password"
+          />
+          <div class="eye">
+            <img
+              class="icon-eye"
+              src="img/icon-view-password1.jpg"
+              alt="icon-password"
+            />
+          </div>
         </div>
-        <img
-          class="view-password"
-          src="img/icon-view-password.jpg"
-          alt="icon-password"
-        />
-        <button class="button" type="submit">Sign In</button>
-        <p class="checkbox">
-          <input type="checkbox" name="Remember me" id="checkbox1" />
-          Remember me
-        </p>
 
-        <button class="button-small" type="submit">Forgot Password?</button>
-        <div class="test">tesiiiiiiiit</div>
+        <div>
+          <div class="signin">
+            <button class="button" type="submit">Sign In</button>
+
+            <div class="footer-buttons">
+              <div class="checkbox">
+                <input type="checkbox" name="Remember me" id="checkbox1" />
+                <span>Remember me</span>
+              </div>
+
+              <button class="button-small" type="submit">
+                Forgot Password?
+              </button>
+            </div>
+          </div>
+        </div>
       </form>
     </main>
   </body>
