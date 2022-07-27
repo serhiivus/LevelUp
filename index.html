@@ -17,7 +17,9 @@
     <main class="main">
       <form class="form-base" action="#" method="get">
         <div class="button-close-line">
-          <input class="button-close" type="image" src="img/batton-close.jpg" />
+          <label>
+            <input class="button-close" type="image" src="img/batton-close.jpg"
+          /></label>
         </div>
 
         <div class="title">Member Sign In</div>
@@ -28,20 +30,23 @@
 
         <div class="user-name-line">
           <img class="icon" src="img/icon-user.jpg" alt="icon-password" />
-          <input
-            class="input-user"
-            type="text"
-            placeholder="     Username / Email"
-          />
+          <label>
+            <input
+              class="input-user"
+              type="text"
+              placeholder="     Username / Email"
+            />
+          </label>
         </div>
 
         <div class="user-name-line">
           <img class="icon" src="img/icon-password.jpg" alt="icon-password" />
-          <input
-            class="input-password"
-            type="password"
-            placeholder="     Password"
-          />
+          <label>
+            <input
+              class="input-password"
+              type="password"
+              placeholder="     Password"
+          /></label>
           <div class="eye">
             <img
               class="icon-eye"
@@ -51,20 +56,18 @@
           </div>
         </div>
 
-        <div>
-          <div class="signin">
-            <button class="button" type="submit">Sign In</button>
+        <div class="signin">
+          <button class="button" type="submit">Sign In</button>
 
-            <div class="footer-buttons">
-              <div class="checkbox">
-                <input type="checkbox" name="Remember me" id="checkbox1" />
-                <span>Remember me</span>
-              </div>
-
-              <button class="button-small" type="submit">
-                Forgot Password?
-              </button>
+          <div class="footer-buttons">
+            <div class="checkbox">
+              <label>
+                <input type="checkbox" name="Remember me" id="checkbox1"
+              /></label>
+              <span>Remember me</span>
             </div>
+
+            <button class="button-small" type="submit">Forgot Password?</button>
           </div>
         </div>
       </form>
