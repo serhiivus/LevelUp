@@ -17,8 +17,18 @@ button {
 .main {
   height: 500px;
   width: 500px;
-  background: linear-gradient(to right, #f69430, #f14e29, #f3632b, #f5832f, #f58220);
+  /* background: linear-gradient(
+    to right,
+    #f69430,
+    #f14e29,
+    #f3632b,
+    #f5832f,
+    #f58220
+  ); */
+
+  background: url("../img/backgraund.jpg");
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
@@ -56,6 +66,7 @@ button {
 .question-line {
   display: flex;
   justify-content: center;
+  /* align-items: stretch; */
   margin-bottom: 20px;
   margin-top: 5px;
 }
@@ -79,19 +90,34 @@ button {
 
 .icon {
   width: 45px;
-  height: 45px;
+  height: 47px;
 }
 .input-user {
   border: none;
   height: 45px;
   width: 210px;
-  text-align: center;
+  /* text-align: center; */
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+
+  color: #c4c4c4;
 }
 .input-password {
   border: none;
   width: 165px;
   height: 45px;
-  background-image: url(img/icon-view-password.jpg) no-repeat;
+  background-image: url(./img/icon-view-password.jpg) no-repeat;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+
+  color: #c4c4c4;
 }
 
 .eye {
@@ -155,4 +181,10 @@ button {
   margin-left: 55px;
   margin-right: 55px;
   margin-top: 30px;
+}
+
+.logo {
+  margin-top: 30px;
+  display: flex;
+  color: #f58225;
 }
